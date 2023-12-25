@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+}
+.logo img{
+    width: 150px;
+   height: 30px;
+}
+.header{
+    width: 100vw;
+}
+.border-radius {
+    width: 32px;
+    height: 32px;
+    border: 0.5px solid  #F45369;
+    border-radius: 8px;
+    background-color: #F45369;
+}
+.bank{
+    margin-right: 15px;
+}
+.show-max{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.start{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;   
+}
+.bank img{
+    width: 30px;
+    display: flex;
+    padding: 4px;
+}
+.empty{
+    border-bottom: 0.5px solid #E8ECF1;
+    margin-top: 5%;
+    height: 1px;
+}
+.language{
+    display: flex;
+    flex-direction: row;   
+}
+.special{
+   
+   border: 0.5px solid #E8ECF1;
+   border-radius: 2px;
+   width: 28px;
+   height: 28px;
+}
+.special p{
+    font-size: 14px;
+    color: #969898;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+.hidden{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: none;
+}
+.special img{
+    width: 26px;
+    font-weight: 900;
+    padding: 1px 2px;
+}
+.icon{
+    border: 0.5px solid #ef3e42; 
+    border-radius: 6px;   
+}
+.icon img{
+    color: #ef3e42;
+}
+.logo{
+    margin-right: 15px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.menu-header{
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-menu{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.for-fisic{
+    border-radius: 37px;
+    background-color:#F45369;
+    height: 30px;
+    width: 33%;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    padding: 6px;
+}
+.for-bisness{
+   border-radius: 37px;
+   background-color: #efecf1;
+   color: #969898;
+   font-size: 12px;
+   width: 24%;
+   padding: 6px;
+   margin-left: 10px;
+}
+.kredit{
+    margin-top: 20px;
+}
+.list-plus img{
+    width: 17px;
+    padding-top: -7px;
+    font-weight: 900;
+    
+}
+.list-menu{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cart p{
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 16px;
+    font-weight: 600;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.komp{
+    padding-left: 18px;
+}
+.list-bank p{
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    font-family: 'Source Sans 3', sans-serif;
+    
+}
+.kapital-bank img{
+    width: 40px;
+    padding: 2px;
+}
+.kapital{
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    padding: 8px;
+    background-color: #FFFFFF;
+    margin-left: 78%;
+    margin-top: 29%;
+    z-index: 1;
+}
+.border-radius:hover .hidden{
+    display: block;
+}
+.depozit img{
+    width: 34%;
+    margin-left: 30%;    
+}
+.depozit{
+    height: 100%;
+}
+.income{
+    text-align: center;
+    font-size: 30px;
+    font-family: inherit;
+    padding-top: 20px;    
+}
+.income p{
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+}
+.buttom {
+    border: 1px solid #f45369;
+    border-radius: 8px;
+    width: 50%;
+    background-color: #f45369;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.buttom p{
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+}
+.text-income{
+    background-color: #E8ECF1;
+    height: 300px;
+}
+.money{
+    border: 1px solid #F45369;
+    border-radius: 5px;
+    padding-top: 2px;
+    width: 9%;
+    background-color: #F45369;
+}
+.display{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 8px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 21px;
+    width: 90%;
+    padding: 10px;
+    margin-left: 5%;
+}
+.operations-row{
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-color: #f9fafb;
+    width: 95%;
+    margin-left: 3%;
+    position: absolute;
+    top: -72px;
+}
+.ipotec p{
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.together{
+    position: relative;
+}
+.birbank-photo img{
+    width: 42px;
+}
+ 
+
