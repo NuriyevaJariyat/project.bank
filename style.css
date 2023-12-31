@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -70,7 +72,7 @@ body{
 .hidden{
     margin-left: 20px;
     margin-top: 20px;
-    display: none;
+    /* display: none; */
 }
 .special img{
     width: 26px;
@@ -107,7 +109,6 @@ body{
     border-radius: 37px;
     background-color:#F45369;
     height: 30px;
-    width: 33%;
     font-size: 12px;
     font-weight: 400;
     color: #fff;
@@ -118,7 +119,6 @@ body{
    background-color: #efecf1;
    color: #969898;
    font-size: 12px;
-   width: 24%;
    padding: 6px;
    margin-left: 10px;
 }
@@ -165,7 +165,7 @@ body{
     position: fixed;
     padding: 8px;
     background-color: #FFFFFF;
-    margin-left: 78%;
+    margin-left: 85%;
     margin-top: 29%;
     z-index: 1;
 }
@@ -196,6 +196,7 @@ body{
     background-color: #f45369;
     margin-left: 25%;
     margin-top: 10px;
+    
 }
 .buttom p{
     font-size: 18px;
@@ -211,7 +212,7 @@ body{
     border: 1px solid #F45369;
     border-radius: 5px;
     padding-top: 2px;
-    width: 9%;
+    width: 42px;
     background-color: #F45369;
 }
 .display{
@@ -226,6 +227,9 @@ body{
     padding: 10px;
     margin-left: 5%;
 }
+/* .display:hover{
+    transform: scale(1);
+} */
 .operations-row{
     border: 1px solid #fff;
     border-radius: 8px;
@@ -246,5 +250,288 @@ body{
 .birbank-photo img{
     width: 42px;
 }
+.location{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.services p{
+    padding-left: 5px;
+}
+.logo-svg img{
+    width: 25px;
+    padding-top: 3px;
+}
+.mobile-text p{
+    color: #fff;
+    padding-top: 5px;
+    font-weight: 600;   
+}
+.cards{
+    display: none;
+}
+.hidden{
+    display: none;
+}
+.hidden:hover header{
+    display: block;
+}
  
+@media(min-width:990px){
+
+    body{
+        width: 100vw;
+    }
+    .language-services{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: -77px;
+        
+    }
+    .show-max{
+        display: none;
+    }
+    .hidden{
+        display: block;
+    }
+    .for-fisic{
+        background-color: #fff;
+        color: #2E3131;
+        font-weight: 800;
+        font-size: 14px;
+        font-family: 'Source Sans 3', sans-serif;
+        
+    }
+    .main-menu{
+        display: block;
+    }
+    .for-bisness{
+        background-color: #fff;
+        color: #2E3131;
+        font-size: 14px;
+        font-family: 'Source Sans 3', sans-serif;
+    }
+    .services{
+        color: #2E3131;
+        font-size: 14px;
+    }
+    .empty{
+        display: none;
+    }
+    .menu-header{
+        margin-top: 2%;
+    
+    }
+    .main-menu{
+        margin-right: 33px;
+        display: flex;
+        align-items: center;
+        /* margin-top: 50px; */
+    }
+    .special{
+        border: none;
+    }
+    .special p{
+        padding-right: 15px;
+        width: 0;
+    }
+    .icon{
+        border: 0.5px solid #ef3e42; 
+        border-radius: 6px;  
+    } 
+    .multiply{
+        display: none;
+    }
+    .rusia{
+        display: none;
+    }
+    .kredit{
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        background-color: #E8ECF1;
+        height: 80px;
+        margin-bottom: 8px;
+        margin-top: 30px;
+       
+    }
+    .list-plus{
+        display: none;
+    }
+    .cart p{
+        font-size: 14px;
+        font-weight: 400;
+        padding-top: 15px;
+        padding-bottom: 20px;
+     
+    }
+    .hidden{
+        margin-left: 0;
+    }
+    .cart-child{
+        width: 10%;
+
+    }
+    .mobile-bank{
+        display: flex;
+        flex-direction: row;
+        margin-left: 70px;
+        padding-left: 6px;
+        border: 1px solid  #F45369;
+        border-radius: 8px;
+        background-color: #f45369;
+        width: 100px;
+        height: 32px;
+        margin-top: 20px;
+    }
+    .depozit-buttom{
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: #E8ECF1;
+        height: 400px;
+    }
+    .depozit img{
+    
+        margin-left: 40%;
+        margin-top: 30px;
+    }
+    .list-bank{
+        display: none;
+    }
+    .income{
+        text-align: start;
+        height: 100px;
+        
+    }
+    .text-income{
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+   .buttom{
+    margin-left: 0%;
+    width: 70%;
+    
+   }
+   .operations-row{
+    width:90% ;
+    display: flex;
+    flex-wrap:wrap ;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+    
+   
+   .display{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    width: 43%;
+   }
+   .ipotec p{
+    width: 150px;
+   }
+   .cards{
+    margin-left: 20px;
+    /* margin-top: 30px; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   }
+   .cards-child{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+   }
+   .rasrochki , .recure {
+    line-height: 2;
+    list-style: none;
+   }
+   .recure{
+    margin-left: 45px;
+   }
+   .rasrochki li:hover{
+    color: #ef3e42;
+   }
+   .recure li:hover{
+    color: #ef3e42;
+   }
+   .recure:last-child(){
+    font-weight: 600;
+   }
+   .unical-card{
+    width: 251px;
+   }
+   .cards-child-left{
+    background-color:#E8ECF1;
+    width: 48%;
+    /* margin-left: 17%; */
+    display: flex;
+   }
+   .cashback-photo img{
+    width: 125px;
+    margin-left: 20px;
+   }
+   .block-rasrochki {
+    margin-top: 30px;
+    width: 179px;
+   }
+   .cards-buttom{
+    margin-top: 30px;
+    padding-left: 20px;
+   }
+   .cashback-photo{
+    margin-top: 30px;
+   }
+   .block-recure ul{
+    width: 146px;
+   }
+   .block-recure{
+    margin-top: 30px;
+   }
+   .weight{
+    font-weight: 600;
+   }
+   li{
+    font-size: 14px;
+    font-family: 'Source Sans 3', sans-serif;
+   }
+   .unical-card{
+    font-size: 14px;
+    font-family: 'Source Sans 3', sans-serif;
+   }
+   .cashback{
+    font-size: 24px;
+    font-family: 'Source Sans 3', sans-serif;
+   }
+   .order-buttom{
+    width: 200px;
+    border: 1px solid #f45369;
+    background-color: #f45369;
+    border-radius: 8px;
+    padding: 11px 20px 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 18px;
+    
+   }
+   .cards{
+    display: none;
+    position: absolute;
+    top: 100%;
+   }
+   .possition:hover .cards{
+    display: block;
+   }
+   
+
+   
+
+
+   
+    
+    
+}
+
 
