@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -178,6 +178,7 @@ body{
 }
 .depozit{
     height: 100%;
+   
 }
 .income{
     text-align: center;
@@ -268,15 +269,11 @@ body{
     padding-top: 5px;
     font-weight: 600;   
 }
-.cards{
+.cards , .card-credit , .child-translation{
     display: none;
 }
-.hidden{
-    display: none;
-}
-.hidden:hover header{
-    display: block;
-}
+
+
  
 @media(min-width:990px){
 
@@ -362,17 +359,25 @@ body{
     .cart p{
         font-size: 14px;
         font-weight: 400;
-        padding-top: 15px;
-        padding-bottom: 20px;
-     
+    }
+    .list-menu{
+        display: flex;
+        align-items: center;
     }
     .hidden{
         margin-left: 0;
+        position: relative;
     }
-    .cart-child{
-        width: 10%;
+    .depozit{
+        width: 50%;
+    }
+    .text-income{
+        width: 50%;
+    }
+    /* .cart-child{
+        width: 10%; */
 
-    }
+    
     .mobile-bank{
         display: flex;
         flex-direction: row;
@@ -383,13 +388,15 @@ body{
         background-color: #f45369;
         width: 100px;
         height: 32px;
-        margin-top: 20px;
+        margin-top: 3px;
     }
     .depozit-buttom{
+        width: 100%;
         display: flex;
         flex-direction: row-reverse;
         background-color: #E8ECF1;
         height: 400px;
+        margin-top: 20px;
     }
     .depozit img{
     
@@ -433,13 +440,63 @@ body{
    }
    .cards{
     margin-left: 20px;
-    /* margin-top: 30px; */
+    display: flex;
+    display: none;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 30px;
+    position: absolute;
+    left: -17px;
+    z-index: 9999;
+    background-color: white;
+   }
+   
+   .card-credit{
+    display: none;
+    /* display: flex; */
+    flex-direction: row;
+    width: 100%;
+    margin-top: 30px;
+    position: absolute;
+    left: -17px;
+    z-index: 9999;
+    background-color: white;
+   }
+   .vklad-kapital{
+    display: none;
+    /* display: flex; */
+    flex-direction: row;
+    width: 100%;
+    margin-top: 30px;
+    position: absolute;
+    left: -17px;
+    z-index: 9999;
+    background-color: white;
+   }
+   .child-translation{
+    display: none;
+    /* display: flex; */
+    flex-direction: row;
+    width: 100%;
+    margin-top: 30px;
+    position: absolute;
+    left: -17px;
+    z-index: 9999;
+    background-color: white;
+   }
+   .onlayn{
+    /* display: none; */
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-top: 30px;
+    position: absolute;
+    left: -17px;
+    z-index: 9999;
+    background-color: white;
    }
-   .cards-child{
-    width: 50%;
+   .card-child{
+    width: 60%;
     display: flex;
     flex-direction: row;
    }
@@ -463,9 +520,8 @@ body{
     width: 251px;
    }
    .cards-child-left{
-    background-color:#E8ECF1;
-    width: 48%;
-    /* margin-left: 17%; */
+    background-color:rgb(215, 211, 211);
+    width: 40%;
     display: flex;
    }
    .cashback-photo img{
@@ -473,8 +529,9 @@ body{
     margin-left: 20px;
    }
    .block-rasrochki {
-    margin-top: 30px;
+    margin-top: 40px;
     width: 179px;
+    margin-left: 20px;
    }
    .cards-buttom{
     margin-top: 30px;
@@ -487,7 +544,7 @@ body{
     width: 146px;
    }
    .block-recure{
-    margin-top: 30px;
+    margin-top: 40px;
    }
    .weight{
     font-weight: 600;
@@ -516,15 +573,105 @@ body{
     font-size: 18px;
     
    }
-   .cards{
-    display: none;
-    position: absolute;
-    top: 100%;
+   .block-skidka{
+    margin-top: 40px;
+    margin-left: 30px;
    }
-   .possition:hover .cards{
-    display: block;
+   .cashback-photo2 img{
+    width: 225px;
+    margin-top: 20px;
    }
-   
+   .block-avto{
+    margin-top: 40px;
+   }
+   .stavka{
+    color: #F45369;
+   }
+   .stavka p{
+    font-weight: 600;
+    font-size: 14px;
+   }
+   .nalichniy{
+    font-weight: 600;
+   }
+   .klik{
+    padding-bottom: 40px;
+   }
+   .cart .cash-cards {
+    font-size: 24px;
+    line-height: 30px;
+    width: 150px;
+   }
+    .thirtythousand{
+    font-size: 14px;
+    max-width: 217px;
+    
+   }
+   .rasrochki li{
+    line-height: 40px;
+   }
+   .recure li{
+    line-height: 40px;
+   }
+   .bessrochniy{
+    margin-left: 30px;
+    margin-top: 40px;
+    line-height: 40px;
+    width: 60%;
+   }
+  .cart .vklad-child{
+    font-size: 24px;
+   }
+   .details p{
+   text-align: center;
+    font-size: 16px;
+   }
+   .details{
+    margin: 45px 0 45px 0;
+   }
+   .yacheyki{
+    font-weight: 600;
+   }
+   .cashback-photo3 img{
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 20px;
+   }
+   .any-card{
+    font-size: 14px;
+    line-height: 18px;
+    width: 230px;
+   }
+   .details1{
+    margin: 17px 0 17px 0;
+   }
+   .cashback-photo4 img{
+      width: 160px;
+      margin-top: 40px;
+      margin-left: 20px;
+   }
+   .cashback{
+    font-size: 24px;
+    font-weight: 600;
+   }
+   .spravka{
+    width: 200px;
+   }
+
+   .position:hover .cards {
+       display: flex;
+   }
+
+    .bisness:hover .card-credit{
+    display: flex;
+   } 
+   .deposits-child:hover .vklad-kapital{
+    display: flex;
+   }
+   .translations:hover .child-translation{
+    display: flex;
+   }
+    
 
    
 
