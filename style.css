@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.main{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+.sub h2{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+.sub p{
+    font-size: 18px;
+    line-height: 23px;
+    max-width: 580px;
+}
+.birbank{
+    position: absolute;
+    bottom: 75%;
+    left: 10%;
+}
+.middle {
+    position: relative;
+    background-color: #e9ecf0;
+    margin-top: 230px;
+}
+.text {
+    text-align: center;
+    padding-top: 200px;
+}
+.text h2 {
+    color: #f45369;
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 5px;
+}
+.text p {
+    color: gray;
+    margin: 15px 0;
+}
+.text button {
+    width: 330px;
+    background-color: #f45369;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 11px 20px 14px;
+    font-size: 24px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 34px;
+    margin-top: 20px;
+}
+.main1 {
+    padding-top: 50px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.main1 h2 {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+.main1 p{
+    font-size: 18px;
+    margin-bottom: 0;
+    max-width: 700px;
+}
+.text1 {
+    text-align: center;
+    padding-top: 150px;
+}
+.text1 h2 {
+    color: #f45369;
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 5px;
+}
+.text1 p {
+    color: gray;
+    margin: 15px 0;
+}
+.text1 button {
+    width: 330px;
+    background-color: #f45369;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 11px 20px 14px;
+    font-size: 24px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 34px;
+    margin-top: 20px;
+}
+.money {
+    position: absolute;
+    bottom: 73%;
+}
+.money img {
+    width: 360px;
+}
+.middle1 {
+    position: relative;
+    background-color: #e9ecf0;
+    margin-top: 150px;
+}
+
+
+@media (min-width: 991px) {
+    .birbank{
+        bottom: 30%;
+        left: 65%;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        margin-right: 80px;
+    }
+    .div {
+        display: flex;
+        flex-direction: column;
+    }
+    .columnText{
+        display: flex;
+        flex-direction: row;
+    }
+    .div1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-left: 600px;
+    }
+    .text {
+        padding-top: 30px;
+        padding-left: 150px;
+    }
+    .button {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .middle{
+        width: 100%;
+        height: 260px;
+        margin: 0;
+    }
+    .button1 {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .money{
+        left: 5%;
+        bottom: 20%;
+    }
+    .money img {
+        width: 450px;
+    }
+    .text1 {
+        padding-top: 50px;
+    }
+    .rowText{
+        display: flex;
+        flex-direction: row;
+    }
+    .middle1 {
+        width: 100%;
+        /* height: 260px; */
+        margin-top: 60px;
+    }
+    .row1 {
+        display: flex;
+        flex-direction: column;
+        margin-right: 80px;
+        
+    }
+    .row1 h2 {
+        font-size: 28px;
+    }
+    .sub1 {
+        margin-left: 550px;
+    }
+    .main{
+        padding: 50px 0;
+        margin-left: 150px;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1220px)  {
+    .row{
+        margin-right: 50px;
+    }
+    .text{
+        padding-left: 60px;
+    }
+    .row1{
+        margin-right: 30px;
+    }
+    .div1{
+        margin-left: 500px;
+    }
+}
+@media screen and (min-width: 530px) and (max-width: 990px) {
+    .birbank {
+        left: 32%
+    }
+    .money{
+        left: 25%;
+    }
+}
