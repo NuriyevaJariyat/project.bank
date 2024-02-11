@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+<<<<<<< HEAD
 
 *{
     margin: 0;
@@ -234,3 +235,636 @@ body{
         left: 25%;
     }
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.logo img{
+    width: 150px;
+   height: 30px;
+}
+.header{
+    width: 100%;
+}
+.border-radius {
+    width: 32px;
+    height: 32px;
+    border: 0.5px solid  #F45369;
+    border-radius: 8px;
+    background-color: #F45369;
+}
+.bank{
+    margin-right: 15px;
+}
+.show-max{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.start{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;   
+}
+.bank img{
+    width: 30px;
+    display: flex;
+    padding: 4px;
+}
+.empty{
+    border-bottom: 0.5px solid #E8ECF1;
+    margin-top: 5%;
+    height: 1px;
+}
+.language{
+    display: flex;
+    flex-direction: row;   
+}
+.special{
+   border: 0.5px solid #E8ECF1;
+   border-radius: 2px;
+   width: 28px;
+   height: 28px;
+   margin-left: 10px;
+}
+.special p{
+    font-size: 14px;
+    color: #969898;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+.hidden{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.special img{
+    width: 26px;
+    font-weight: 900;
+    padding: 1px 2px;
+}
+.icon{
+    border: 0.5px solid #ef3e42; 
+    border-radius: 6px;   
+}
+.icon img{
+    color: #ef3e42;
+}
+.logo{
+    margin-right: 15px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.location{
+    display: none;
+}
+.menu-header{
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-menu{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.for-fisic{
+    border-radius: 37px;
+    background-color:#F45369;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    padding: 6px;
+}
+.for-bisness{
+   border-radius: 37px;
+   background-color: #efecf1;
+   color: #969898;
+   font-size: 12px;
+   padding: 6px;
+   margin-left: 10px;
+}
+.kredit{
+    margin-top: 20px;
+}
+.list-plus img{
+    width: 17px;
+    font-weight: 900;
+    margin-bottom: -25px;
+}
+.list-menu{
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cart p{
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 25px;
+    font-weight: 600;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.list-bank p{
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    font-family: 'Source Sans 3', sans-serif;    
+}
+.kapital-bank img{
+    width: 40px;
+    padding: 2px;
+}
+.kapital{
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    padding: 8px;
+    background-color: #FFFFFF;
+    margin-left: 85%;
+    margin-top: 29%;
+    z-index: 1;
+}
+.border-radius:hover .hidden{
+    display: block;
+}
+.depozit img{
+    width: 34%;
+    margin-left: 30%;    
+}
+.depozit{
+    height: 100%;  
+}
+.income{
+    text-align: center;
+    font-size: 30px;
+    font-family: inherit;
+    padding-top: 20px;    
+}
+.income p{
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+}
+.buttom {
+    border: 1px solid #f45369;
+    border-radius: 8px;
+    width: 50%;
+    background-color: #f45369;
+    margin-left: 25%;
+    margin-top: 10px;   
+}
+.buttom p{
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+}
+.text-income{
+    background-color: #E8ECF1;
+    height: 300px;
+}
+.money{
+    border: 1px solid #F45369;
+    border-radius: 5px;
+    padding-top: 2px;
+    width: 39px;
+    height: 44px;
+    background-color: #F45369;
+}
+.display{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 8px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 21px;
+    width: 90%;
+    padding: 10px;
+    margin-left: 5%;
+}
+.operations-row{
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-color: #f9fafb;
+    width: 95%;
+    margin-left: 3%;
+    position: absolute;
+    top: -72px;
+}
+.ipotec p{
+    padding-left: 25px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+    text-align: center;
+}
+.together{
+    position: relative;
+}
+.birbank-photo img{
+    width: 40px;
+}
+.services p{
+    padding-left: 5px;
+}
+.mobile-text p{
+    display: none;
+}
+.logo-svg img{
+    width: 25px;
+    padding-top: 3px;
+}
+.cards , .card-credit , .child-translation ,.onlayn , .vklad-kapital{
+    display: none;
+}
+
+@media(min-width:990px){
+
+    body{
+        width: 100%;
+    }
+    .language-services{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: -77px; 
+        margin-right: 30px;   
+    }
+    .show-max{
+        display: none;
+    }
+    .hidden{
+        display: block;
+    }
+    .for-fisic{
+        background-color: #fff;
+        color: #2E3131;
+        font-weight: 800;
+        font-size: 14px;
+        font-family: 'Source Sans 3', sans-serif; 
+    }
+    .main-menu{
+        display: block;
+    }
+    .for-bisness{
+        background-color: #fff;
+        color: #2E3131;
+        font-size: 14px;
+        font-family: 'Source Sans 3', sans-serif;
+    }
+    .services{
+        color: #2E3131;
+        font-size: 14px;
+    }
+    .empty{
+        display: none;
+    }
+    .menu-header{
+        margin-top: 2%;
+    }
+    .main-menu{
+        margin-right: 33px;
+        display: flex;
+        align-items: center;
+    }
+    .special{
+        border: none;
+    }
+    .special p{
+        padding-right: 15px;
+        width: 0;
+    }
+    .icon{
+        border: 0.5px solid #ef3e42; 
+        border-radius: 6px;  
+    } 
+    .multiply{
+        display: none;
+    }
+    .rusia{
+        display: none;
+    }
+    .location{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .income p , .buttom{
+        width: 320px;
+    }
+    .kredit{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: #E8ECF1;
+        height: 80px;
+        margin-bottom: 8px;
+        margin-top: 30px;
+       padding-left: 20px;
+        
+    }
+    .list-plus{
+        display: none;
+    }
+
+    .cart p{
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 8px;
+    }
+    .list-menu{
+        display: flex;
+        align-items: center;
+    }
+    .hidden{
+        margin-left: 0;
+        position: relative;
+    }
+    .depozit{
+        width: 50%;
+    }
+    .logo-text{
+        display: flex;
+        flex-direction: row;
+        border: 1px solid  #F45369;
+        border-radius: 8px;
+        background-color: #f45369;
+        width: 85px;
+        height: 32px;
+        margin-top: 3px; 
+        margin-left: 30%;
+    }
+    .mobile-text p{
+        display: block;
+        color: #fff;
+        padding-top: 5px; 
+         padding-right: 5px;
+        font-weight: 500;   
+    }
+    .depozit-buttom{
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: #E8ECF1;
+        height: 400px;
+        
+    }
+    .depozit img{
+    width: 45%;
+    margin-left: 25%;
+    margin-top: 30px;
+    }
+    .list-bank{
+    display: none;
+    }
+    .income{
+    text-align: start;
+    height: 100px;
+        
+    }
+    .text-income{
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+    }
+    .logo{
+    margin-left: 13px;
+    }
+   .buttom{
+    margin-left: 0%; 
+   }
+   .operations-row{
+    width:90% ;
+    margin-left: 5%;
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+   .display{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 2%;
+    width: 19%;
+   }
+   .ipotec p{
+    width: 150px;
+   }
+   .cards{
+    display: flex;
+    display: none;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 30px;
+    position: absolute;
+    z-index: 9999;
+    background-color: white;
+   }
+   .card-credit , .vklad-kapital , .child-translation , .onlayn{
+    display: none;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 30px;
+    position: absolute;
+    left: -1px;
+    z-index: 9999;
+    background-color: white;
+   }
+   .card-child{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+   }
+   .rasrochki , .recure {
+    line-height: 2;
+    list-style: none;
+   }
+   .recure{
+    margin-left: 45px;
+   }
+   .rasrochki li:hover{
+    color: #ef3e42;
+   }
+   .recure li:hover{
+    color: #ef3e42;
+   }
+   .recure:last-child(){
+    font-weight: 600;
+   }
+   .unical-card{
+    width: 250px;
+   }
+   .cards-child-left{
+    background-color:rgb(215, 211, 211);
+    width: 40%;
+    display: flex;
+   }
+   .cashback-photo img{
+    width: 125px;
+    margin-left: 20px;
+   }
+   .block-rasrochki {
+    margin-top: 40px;
+    width: 179px;
+    margin-left: 20px;
+   }
+   .cards-button{
+    margin-top: 30px;
+    padding-left: 20px;
+   }
+   .cashback-photo{
+    margin-top: 30px;
+   }
+   .block-recure ul{
+    width: 146px;
+   }
+   .block-recure{
+    margin-top: 40px;
+   }
+   .weight{
+    font-weight: 600;
+   }
+   li{
+    font-size: 14px;
+    font-family: 'Source Sans 3', sans-serif;
+   }
+   .unical-card{
+    font-size: 14px;
+    font-family: 'Source Sans 3', sans-serif;
+   }
+   .cashback strong{
+    font-size: 20px;
+    font-family: 'Source Sans 3', sans-serif;
+   }
+   .order-button{
+    width: 200px;
+    border: 1px solid #f45369;
+    background-color: #f45369;
+    border-radius: 8px;
+    padding: 11px 20px 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 18px;
+   }
+   .block-skidka{
+    margin-top: 40px;
+    margin-left: 30px;
+   }
+   .cashback-photo2 img{
+    width: 225px;
+    margin-top: 20px;
+   }
+   .block-avto{
+    margin-top: 40px;
+   }
+   .stavka{
+    color: #F45369;
+   }
+   .stavka p{
+    font-weight: 600;
+    font-size: 14px;
+   }
+   .nalichniy{
+    font-weight: 600;
+   }
+   .klik{
+    padding-bottom: 40px;
+   }
+   .cart .cash-cards {
+    font-size: 24px;
+    line-height: 30px;
+    width: 150px;
+   }
+    .thirtythousand{
+    font-size: 14px;
+    max-width: 217px;
+   }
+   .rasrochki li{
+    line-height: 40px;
+   }
+   .recure li{
+    line-height: 40px;
+   }
+   .bessrochniy{
+    margin-left: 30px;
+    margin-top: 40px;
+    line-height: 40px;
+    width: 60%;
+   }
+  .cart .vklad-child{
+    font-size: 24px;
+   }
+   .details p{
+   text-align: center;
+    font-size: 16px;
+   }
+   .details{
+    margin: 45px 0 45px 0;
+   }
+   .yacheyki{
+    font-weight: 600;
+   }
+   .cashback-photo3 img{
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 20px;
+   }
+   .any-card{
+    font-size: 14px;
+    line-height: 18px;
+    width: 230px;
+   }
+   .details1{
+    margin: 17px 0 17px 0;
+   }
+   .cashback-photo4 img{
+      width: 160px;
+      margin-top: 40px;
+      margin-left: 20px;
+   }
+   .cashback{
+    font-size: 24px;
+    font-weight: 600;
+   }
+   .spravka{
+    width: 200px;
+   }
+
+   .position:hover .cards {
+       display: flex;
+   }
+    .bisness:hover .card-credit{
+    display: flex;
+   } 
+   .deposits-child:hover .vklad-kapital{
+    display: flex;
+   }
+   .translations:hover .child-translation{
+    display: flex;
+   }
+   .onlayn-service:hover .onlayn{
+    display: flex;
+    
+   } 
+    
+}
+
+
+>>>>>>> 81dc7fd1dde29656eca59e8c2a1d4e4dbf529c18
