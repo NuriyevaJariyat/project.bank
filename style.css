@@ -854,3 +854,300 @@ body{
         left: 25%;
     }
 }
+.kredit-calculate-itoq-left-top {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 15px;
+}
+
+.kredit-calculate-itoq-left-top-circles {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.calculate-h3 {
+    margin-bottom: 15px;
+}
+
+.kredit-calculate-itoq-left-top-circle {
+    color: #2E3131;
+    margin-right: 15px;
+    width: 170px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E8ECF1;
+    border-radius: 50px;
+    background-color: #E8ECF1;
+}
+
+.kredit-calculate-itoq-left-top-circle-birbank {
+    font-size: 15px;
+    width: 200px;
+}
+
+.kredit-calculate-itoq-left-top-circle:hover {
+    background-color: #f45369;
+    color: aliceblue;
+}
+
+.credit-p {
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.potrebitelskiy-credit-p {
+    margin-bottom: 1rem;
+}
+
+.procent-of-credit {
+    margin-bottom: 1rem;
+}
+
+.kredit-calculate-itoq-left-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.credit-input {
+    margin-left: 15px;
+    padding-left: 15px;
+    width: 85%;
+    height: 65px;
+    border-radius: 10px;
+    border-color: #f45369;
+    outline: none;
+}
+
+.znaceniya-credit {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: 10px 0 50px;
+    padding-left: 15px;
+}
+
+.kredit-calculate-itoq-right {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.oplata-p {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.price-p {
+    color: #f45369;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.oformit-zakaz {
+    color: white;
+    background-color: #f45369;
+    border: 1px solid #f45369;
+    width: 90%;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.onlayn-insan {
+    margin-bottom: 30px;
+}
+
+.onlayn-kredit {
+    background-color: rgba(128, 128, 128, 0.107);
+    padding: 24px 15px 0 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.onlayn-kredit-h2 {
+    margin-bottom: 14px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.onlayn-kredit-p1 {
+    margin-bottom: 14px;
+}
+
+.onlayn-kredit-p2 {
+    color: #f45369;
+}
+
+.onlayn-kredit-arrow {
+    padding-left: 10px;
+}
+
+.onlayn-kredit-foto {
+    width: 250px;
+    padding-left: 70px;
+}
+.onlayn-kredit-foto-div {
+    display: flex;
+    justify-content: flex-end;
+}
+.insan-resurslari {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px 15px 0 !important;
+    background-color: rgba(252, 17, 17, 0.881);
+}
+
+.insan-resurslari-h2 {
+    color: white;
+    margin-bottom: 14px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.insan-resurslari-p1 {
+    margin-bottom: 14px;
+    color: white;
+}
+
+.insan-resurslari-p2 {
+    color: white;
+}
+
+.insan-resurslari-arrow {
+    padding-left: 10px;
+}
+
+.insan-resurslari-foto-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.insan-resurslari-foto {
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.xeberler {
+    padding-inline: 15px;
+    background-color: #E8ECF1;
+}
+
+.xeberler-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.xeberler-1-h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.xeberler-1-p {
+    color: #f45369;
+    display: flex;
+    align-items: center;
+}
+
+.xeberler-2 {
+    background-color: white;
+    height: 2px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 10px 0;
+
+}
+
+.xeberler-3 {
+    padding:10px 0 15px 0;
+    display: flex;
+}
+
+.xeberler-3-first-container {
+    display: flex;
+}
+
+.xeberler-3-first-container-left {
+    display: flex;
+    flex-direction: column;
+}
+.xeberler-3-first-container-none{
+    display: none;
+}
+
+.xeberler-3-first-container-circle {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #f45369;
+    border-radius: 50% !important;
+}
+
+.xeberler-3-first-container-fevral {
+    padding: 1px 0 0 5px;
+}
+.xeberler-3-first-container-right {
+    padding: 10px 0 0 20px;
+    width: 250px;
+}
+@media (min-width: 990px) { 
+    .kredit-display-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .kredit-calculate-itoq{
+        width: 60%;
+    }
+    .kredit-calculate-itoq-left-top-circles {
+        width: 40%;
+    }
+    .kredit-calculate-itoq-right-flex{
+        display: flex;
+        align-items: center;
+    }
+    .kredit-calculate-itoq-right {
+        height: 350px;
+        width: 300px;
+        padding-left: 20px;
+    }
+    .onlayn-insan {
+        display: flex;
+
+    }
+    .onlayn-kredit {
+        width: 50%;
+        border: 1px solid transparent;
+        border-radius: 0  20px 20px 0;
+        margin-right: 8px;
+    }
+    .insan-resurslari {
+        width: 50%;
+        border: 1px solid transparent;
+        border-radius: 20px 0 0 20px;
+        margin-left: 8px;
+    }
+    .xeberler-3 {
+        justify-content: space-between;
+    }
+    .xeberler-3-first-container-none {
+        width: 33%;
+        display: flex;
+    }
+}
