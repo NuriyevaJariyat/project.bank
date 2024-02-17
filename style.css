@@ -7,210 +7,363 @@
     
 }
 body{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     font-family: 'Source Sans 3', sans-serif;
 }
-.main{
+.logo img{
+    width: 150px;
+   height: 30px;
+}
+.header{
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 20px;
 }
-.sub h2{
-    font-weight: 300;
-    font-size: 36px;
-    line-height: 45px;
-    font-weight: 400;
-    margin-bottom: 14px;
-}
-.sub p{
-    font-size: 18px;
-    line-height: 23px;
-    max-width: 580px;
-}
-.birbank{
-    position: absolute;
-    bottom: 75%;
-    left: 10%;
-}
-.middle {
-    position: relative;
-    background-color: #e9ecf0;
-    margin-top: 230px;
-}
-.text {
-    text-align: center;
-    padding-top: 200px;
-}
-.text h2 {
-    color: #f45369;
-    font-size: 28px;
-    line-height: 35px;
-    margin-bottom: 5px;
-}
-.text p {
-    color: gray;
-    margin: 15px 0;
-}
-.text button {
-    width: 330px;
-    background-color: #f45369;
+.border-radius {
+    width: 32px;
+    height: 32px;
+    border: 0.5px solid  #F45369;
     border-radius: 8px;
-    display: inline-block;
-    padding: 11px 20px 14px;
-    font-size: 24px;
-    color: #fff;
-    line-height: 30px;
-    text-align: center;
-    border: none;
-    cursor: pointer;
-    margin-bottom: 34px;
+    background-color: #F45369;
+}
+.bank{
+    margin-right: 15px;
+}
+.show-max{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.start{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;   
+}
+.bank img{
+    width: 30px;
+    display: flex;
+    padding: 4px;
+}
+.empty{
+    border-bottom: 0.5px solid #E8ECF1;
+    margin-top: 5%;
+    height: 1px;
+}
+.language{
+    display: flex;
+    flex-direction: row;   
+}
+.special{
+   border: 0.5px solid #E8ECF1;
+   border-radius: 2px;
+   width: 28px;
+   height: 28px;
+   margin-left: 10px;
+}
+.special p{
+    font-size: 14px;
+    color: #969898;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+.hidden{
+    margin-left: 20px;
     margin-top: 20px;
 }
-.main1 {
-    padding-top: 50px;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    
+.special img{
+    width: 26px;
+    font-weight: 900;
+    padding: 1px 2px;
 }
-.main1 h2 {
-    font-size: 36px;
-    line-height: 45px;
+.icon{
+    border: 0.5px solid #ef3e42; 
+    border-radius: 6px;   
+}
+.icon img{
+    color: #ef3e42;
+}
+.logo{
+    margin-right: 15px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.location{
+    display: none;
+}
+.menu-header{
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-menu{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.for-fisic{
+    border-radius: 37px;
+    background-color:#F45369;
+    height: 30px;
+    font-size: 12px;
     font-weight: 400;
-    margin-bottom: 14px;
-}
-.main1 p{
-    font-size: 18px;
-    margin-bottom: 0;
-    max-width: 700px;
-}
-.text1 {
-    text-align: center;
-    padding-top: 150px;
-}
-.text1 h2 {
-    color: #f45369;
-    font-size: 28px;
-    line-height: 35px;
-    margin-bottom: 5px;
-}
-.text1 p {
-    color: gray;
-    margin: 15px 0;
-}
-.text1 button {
-    width: 330px;
-    background-color: #f45369;
-    border-radius: 8px;
-    display: inline-block;
-    padding: 11px 20px 14px;
-    font-size: 24px;
     color: #fff;
-    line-height: 30px;
-    text-align: center;
-    border: none;
-    cursor: pointer;
-    margin-bottom: 34px;
+    padding: 6px;
+}
+.for-bisness{
+   border-radius: 37px;
+   background-color: #efecf1;
+   color: #969898;
+   font-size: 12px;
+   padding: 6px;
+   margin-left: 10px;
+}
+.kredit{
     margin-top: 20px;
 }
-.money {
+.list-plus img{
+    width: 17px;
+    font-weight: 900;
+    margin-bottom: -25px;
+}
+.list-menu{
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cart p{
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 25px;
+    font-weight: 600;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.list-bank p{
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    font-family: 'Source Sans 3', sans-serif;    
+}
+.kapital-bank img{
+    width: 40px;
+    padding: 2px;
+}
+.kapital{
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    padding: 8px;
+    background-color: #FFFFFF;
+    margin-left: 85%;
+    margin-top: 29%;
+    z-index: 1;
+}
+.border-radius:hover .hidden{
+    display: block;
+}
+.depozit img{
+    width: 34%;
+    margin-left: 30%;    
+}
+.depozit{
+    height: 100%;  
+}
+.income{
+    text-align: center;
+    font-size: 30px;
+    font-family: inherit;
+    padding-top: 20px;    
+}
+.income p{
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+}
+.buttom {
+    border: 1px solid #f45369;
+    border-radius: 8px;
+    width: 50%;
+    background-color: #f45369;
+    margin-left: 25%;
+    margin-top: 10px;   
+}
+.buttom p{
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+}
+.text-income{
+    background-color: #E8ECF1;
+    height: 300px;
+}
+.logo-money{
+    border: 1px solid #F45369;
+    border-radius: 5px;
+    padding-top: 2px;
+    width: 39px;
+    height: 44px;
+    background-color: #F45369;
+}
+.display{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 8px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 21px;
+    width: 90%;
+    padding: 10px;
+    margin-left: 5%;
+}
+.operations-row{
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-color: #f9fafb;
+    width: 95%;
+    margin-left: 3%;
     position: absolute;
-    bottom: 73%;
+    top: -72px;
 }
-.money img {
-    width: 360px;
+.ipotec p{
+    padding-left: 25px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+    text-align: center;
 }
-.middle1 {
+.together{
     position: relative;
-    background-color: #e9ecf0;
-    margin-top: 150px;
+}
+.birbank-photo img{
+    width: 40px;
+}
+.services p{
+    padding-left: 5px;
+}
+.mobile-text p{
+    display: none;
+}
+.logo-svg img{
+    width: 25px;
+    padding-top: 3px;
+}
+.cards , .card-credit , .child-translation ,.onlayn , .vklad-kapital{
+    display: none;
 }
 
+@media(min-width:990px){
 
-@media (min-width: 991px) {
-    .birbank{
-        bottom: 30%;
-        left: 65%;
+    body{
+        width: 100%;
     }
-    .row {
+    .language-services{
         display: flex;
-        flex-direction: column;
-        margin-right: 80px;
+        flex-direction: row-reverse;
+        margin-top: -77px; 
+        margin-right: 30px;   
     }
-    .div {
+    .show-max{
+        display: none;
+    }
+    .hidden{
+        display: block;
+    }
+    .for-fisic{
+        background-color: #fff;
+        color: #2E3131;
+        font-weight: 800;
+        font-size: 14px;
+        font-family: 'Source Sans 3', sans-serif; 
+    }
+    .main-menu{
+        display: block;
+    }
+    .for-bisness{
+        background-color: #fff;
+        color: #2E3131;
+        font-size: 14px;
+        font-family: 'Source Sans 3', sans-serif;
+    }
+    .services{
+        color: #2E3131;
+        font-size: 14px;
+    }
+    .empty{
+        display: none;
+    }
+    .menu-header{
+        margin-top: 2%;
+    }
+    .main-menu{
+        margin-right: 33px;
         display: flex;
-        flex-direction: column;
+        align-items: center;
     }
-    .columnText{
+    .special{
+        border: none;
+    }
+    .special p{
+        padding-right: 15px;
+        width: 0;
+    }
+    .icon{
+        border: 0.5px solid #ef3e42; 
+        border-radius: 6px;  
+    } 
+    .multiply{
+        display: none;
+    }
+    .rusia{
+        display: none;
+    }
+    .location{
         display: flex;
         flex-direction: row;
+        margin-top: 5px;
+        margin-left: 10px;
     }
-    .div1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        margin-left: 600px;
+    .income p , .buttom{
+        width: 320px;
     }
-    .text {
-        padding-top: 30px;
-        padding-left: 150px;
-    }
-    .button {
-        display: flex;
-        justify-content: flex-start;
-    }
-    .middle{
+    .kredit{
         width: 100%;
-        height: 260px;
-        margin: 0;
-    }
-    .button1 {
-        display: flex;
-        justify-content: flex-start;
-    }
-    .money{
-        left: 5%;
-        bottom: 20%;
-    }
-    .money img {
-        width: 450px;
-    }
-    .text1 {
-        padding-top: 50px;
-    }
-    .rowText{
         display: flex;
         flex-direction: row;
+        background-color: #E8ECF1;
+        height: 80px;
+        margin-bottom: 8px;
+        margin-top: 30px;
+       padding-left: 20px;
+
     }
-    .middle1 {
-        width: 100%;
-        /* height: 260px; */
-        margin-top: 60px;
+    .list-plus{
+        display: none;
     }
-    .row1 {
+
+    .cart p{
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 8px;
+    }
+    .list-menu{
         display: flex;
-        flex-direction: column;
-        margin-right: 80px;
-        
+        align-items: center;
     }
-    .row1 h2 {
-        font-size: 28px;
+    .hidden{
+        margin-left: 0;
+        position: relative;
     }
-    .sub1 {
-        margin-left: 550px;
-    }
-    .main{
-        padding: 50px 0;
-        margin-left: 150px;
+    .depozit{
         width: 50%;
     }
-<<<<<<< HEAD
     .logo-text{
         display: flex;
         flex-direction: row;
@@ -234,7 +387,7 @@ body{
         flex-direction: row-reverse;
         background-color: #E8ECF1;
         height: 400px;
-        
+
     }
     .depozit img{
     width: 45%;
@@ -247,7 +400,7 @@ body{
     .income{
     text-align: start;
     height: 100px;
-        
+
     }
     .text-income{
     width: 50%;
@@ -263,7 +416,7 @@ body{
    .operations-row{
     width:90% ;
     margin-left: 5%;
-    padding: 32px;
+    padding: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -272,7 +425,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 10px;
-    margin-left: 1%;
+    margin-left: 2%;
     width: 19%;
    }
    .ipotec p{
@@ -473,14 +626,213 @@ body{
    }
    .onlayn-service:hover .onlayn{
     display: flex;
-    
+
    } 
+
+}
+.main{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+.sub h2{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+.sub p{
+    font-size: 18px;
+    line-height: 23px;
+    max-width: 580px;
+}
+.birbank{
+    position: absolute;
+    bottom: 75%;
+    left: 10%;
+}
+.middle {
+    position: relative;
+    background-color: #e9ecf0;
+    margin-top: 230px;
+}
+.text {
+    text-align: center;
+    padding-top: 200px;
+}
+.text h2 {
+    color: #f45369;
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 5px;
+}
+.text p {
+    color: gray;
+    margin: 15px 0;
+}
+.text button {
+    width: 330px;
+    background-color: #f45369;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 11px 20px 14px;
+    font-size: 24px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 34px;
+    margin-top: 20px;
+}
+.main1 {
+    padding-top: 50px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
     
-=======
->>>>>>> d311ef8f588af417c15f326043a779ed1e99913e
+}
+.main1 h2 {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+.main1 p{
+    font-size: 18px;        
+    margin-bottom: 0;
+    max-width: 700px;
+}
+.text1 {
+    text-align: center;
+    padding-top: 150px;
+}
+.text1 h2 {
+    color: #f45369;
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 5px;
+}
+.text1 p {
+    color: gray;
+    margin: 15px 0;
+}
+.text1 button {
+    width: 330px;
+    background-color: #f45369;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 11px 20px 14px;
+    font-size: 24px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 34px;
+    margin-top: 20px;
+}
+.money {
+    position: absolute;
+    bottom: 73%;
+}
+.money img {
+    width: 360px;
+}
+.middle1 {
+    position: relative;
+    background-color: #e9ecf0;
+    margin-top: 150px;
 }
 
-@media screen and (min-width: 991px) and (max-width: 1220px)  {
+
+@media (min-width: 991px) {
+    .birbank{
+        bottom: 18%;
+        left: 65%;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        margin-right: 80px;
+    }
+    .div {
+        display: flex;
+        flex-direction: column;
+    }
+    .columnText{
+        display: flex;
+        flex-direction: row;
+    }
+    .div1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-left: 600px;
+    }
+    .text {
+        padding-top: 30px;
+        padding-left: 150px;
+    }
+    .button {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .middle{
+        width: 100%;
+        height: 260px;
+        margin: 0;
+    }
+    .button1 {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .money{
+        left: 5%;
+        bottom: 20%;
+    }
+    .money img {
+        width: 450px;
+    }
+    .text1 {
+        padding-top: 50px;
+    }
+    .rowText{
+        display: flex;
+        flex-direction: row;
+    }
+    .middle1 {
+        width: 100%;
+        /* height: 260px; */
+        margin-top: 60px;
+    }
+    .row1 {
+        display: flex;
+        flex-direction: column;
+        margin-right: 80px;
+        
+    }
+    .row1 h2 {
+        font-size: 28px;
+    }
+    .sub1 {
+        margin-left: 550px;
+    }
+    .main{
+        padding-top: 130px;
+        padding-bottom: 10px;
+        margin-left: 4%;
+        width: 50%;
+    }
+}
+
+@media  (min-width: 991px)   {
     .row{
         margin-right: 50px;
     }
@@ -494,7 +846,7 @@ body{
         margin-left: 500px;
     }
 }
-@media screen and (min-width: 530px) and (max-width: 990px) {
+@media  (max-width: 990px) {
     .birbank {
         left: 32%
     }
