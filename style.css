@@ -1151,3 +1151,573 @@ body{
         display: flex;
     }
 }
+.mainaydan {
+    width: 100vw;
+}
+
+.button_list {
+    border: 1px solid #e9ecf0;
+    background-color: #e9ecf0;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    margin: 40px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.valyuta_calculator p {
+    font-size: 12px;
+}
+
+.valyuta_calculator {
+    display: none;
+}
+
+.razdelno {
+    padding: 30px 30px 0 30px;
+}
+
+.vibor {
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 310px;
+    font-size: 13px;
+    margin: 0 auto 10px;
+}
+
+.sell {
+    background-color: #f45369;
+    color: #fff;
+    margin: 3px 4px 3px 0;
+    padding: 8px 35px 8px 32px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.buy {
+    margin: 3px 0px 3px 4px;
+    padding: 8px 32px 8px 35px;
+    background-color: #e9ecf0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.buy:hover {
+    background-color: #f45369;
+    color: white;
+}
+
+.vvedite_summu {
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.inputVvod {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.CustomTable table td {
+    font-size: 24px;
+    border-top: 1px solid white;
+}
+
+.CustomTable table {
+    border-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tdfirst {
+    padding: 12px 12px 12px 40px;
+}
+
+.tdsecond {
+    padding: 12px 40px 12px 12px;
+    text-align: end;
+}
+
+.inputVvod input {
+
+    padding-right: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.input-with-exchange {
+    display: flex;
+    background-color: white;
+    height: 48px;
+    border-radius: 10px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 5px 1px 15px;
+
+}
+
+.input-with-exchange:focus-within {
+    outline: 1px solid yellow;
+}
+
+.AznUsdEur {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    border-radius: 8px;
+    height: 40px;
+
+}
+
+.azn {
+    font-size: 12px;
+    padding: 7px;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    padding: 7px 7px 7px 0;
+}
+
+.inputVvod,
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.questions {
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    color: red;
+}
+
+.questions:hover {
+    color: black;
+}
+
+.questions img {
+    margin-left: 15px;
+    margin-top: 3px;
+    width: 15px;
+}
+
+footer {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    padding: 35px 0px 24px 0px;
+    background: #2e3131;
+    color: #fff;
+    font-size: 14px;
+}
+
+.foot {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foot2 {
+    width: 50%;
+    margin-bottom: 34px;
+    font-size: 12px;
+}
+
+footer li {
+    margin-bottom: 14px;
+}
+
+footer h3 {
+    margin-bottom: 14px
+}
+
+footer ul {
+
+    list-style-type: none;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.qrcode {
+    display: none;
+}
+
+.mobile-store-icons {
+    border: 1px solid white;
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    width: 196px;
+    padding: 8px 20px;
+    margin-bottom: 17px;
+    border-radius: 7px;
+
+}
+
+.mobile-store-icons span {
+    font-weight: bold;
+}
+
+.mobile-store-icons p {
+    font-size: 12px;
+}
+
+.mobile-store-icons img {
+    display: block;
+    margin-right: 12px;
+    width: 24px;
+    height: 24px;
+}
+
+.foot3 {
+    width: 100%;
+}
+
+.mobile-store {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot3 h3 {
+    display: none;
+}
+
+.social-media-loqo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.social-media-loqo img {
+    width: 20px;
+}
+
+.phone {
+    border: 1px solid red;
+    display: flex;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.phone img {
+    margin-right: 5px;
+}
+
+.phone p {
+    font-size: large;
+    font-weight: bold;
+}
+
+.loqoss {
+    padding-top: 7px;
+    margin-left: 30px;
+}
+
+.foot-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex_display {
+    border-top: 1px solid #4a4a4a;
+    margin-top: 20px;
+}
+
+.images_footer {
+    padding-top: 30px;
+}
+
+.paddind-left img {
+    padding-left: 30px;
+
+}
+
+.paddind-left span img {
+    width: 100px;
+    padding-top: 18px;
+}
+
+.text_footer {
+    text-align: center;
+
+}
+
+.text_foot {
+    padding: 10px 5px;
+    font-size: 12px;
+
+}
+
+/* @media(max-width:800px) {
+    .main {
+        width: 100vw;
+    }
+
+} */
+
+@media(min-width:800px) {
+    .main {
+        width: 100vw;
+
+    }
+
+    .flex_display {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .text_footer {
+        padding-top: 50px;
+    }
+
+    .valyuta_calculator {
+        display: block;
+
+    }
+
+    .valyuta_calculator table {
+        padding-top: 50px;
+    }
+
+    .valyuta_calculator h1 {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+        padding-top: 65px;
+
+    }
+
+    .footer_calculator_table {
+        display: none;
+    }
+
+    .twoTables_row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0 15px;
+    }
+
+    .button_list {
+        width: 400px;
+    }
+
+    .inputVvod input {
+        width: 300px;
+    }
+
+    .foot {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    /* .foot2{
+        width: 100%;
+    } */
+
+    .mobile-store {
+        width: 200px;
+        align-items: flex-start;
+    }
+
+    .foot3 {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .foot3 h3 {
+        display: block;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        color: #fafafa;
+        margin-bottom: 24px;
+        ;
+    }
+
+    .qrcode {
+        display: block;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .social_media_loqo {
+        width: 100%;
+    }
+
+    .flex_display {
+        display: flex;
+        flex-direction: row-reverse;
+
+        width: 100%;
+    }
+
+    .text_footer {
+        text-align: start;
+        width: 40vw;
+    }
+
+    .text_foot {
+        padding-bottom: 20px;
+    }
+
+    .foot-images {
+        padding-top: 20px;
+        width: 300px;
+    }
+
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media(min-width:985px) {
+    .tbody_calculator_footer tr:first-child td {
+        font-size: 13px;
+
+    }
+
+    td {
+        font-weight: lighter;
+        font-size: 24px;
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    }
+
+    .twoTables_row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* padding: 0 15px; */
+    }
+
+    .valyuta_calculator p {
+        margin-bottom: 65px;
+
+    }
+
+    .tbody_calculator_footer td {
+        border-bottom: 1px solid red;
+        font-size: 24px;
+        padding: 12px 80px 12px 10px;
+    }
+
+    .tbody_calculator_footer tr:last-child td {
+        border: none;
+    }
+
+    span {
+        font-weight: 450;
+    }
+
+    .footer_calculator_table {
+        display: table;
+        border-collapse: collapse;
+    }
+
+    .inputVvod input {
+        width: 320px;
+    }
+
+    .button_list {
+        margin: 59px 0;
+    }
+
+    .questions {
+        margin-left: 40px;
+    }
+
+    .foot2 {
+        width: 20%;
+    }
+
+    .foot3 {
+        width: 20%;
+
+    }
+
+    .social-media-loqo {
+        justify-content: flex-start;
+    }
+
+    .foot-images {
+        width: 600px;
+    }
+
+    .images_footer {
+        padding-left: 30px;
+    }
+
+
+}
+
+@media(min-width:1200px) {
+
+    .valyuta_calculator td {
+        padding: 12px 90px 12px 10px;
+    }
+
+    .button_list {
+        width: 520px;
+
+    }
+
+    .inputVvod input {
+        width: 420px;
+    }
+
+    footer {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+
+}
